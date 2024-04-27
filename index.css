@@ -1,0 +1,34 @@
+* {
+    transition: all 0.3s;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-image: url(https://img.freepik.com/foto-gratis/superficie-metal-rayado-estilo-grunge-oscuro_1048-12951.jpg);
+}
+
+.marco {
+    border-radius: 20px;
+    background: black;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.botones-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
+
